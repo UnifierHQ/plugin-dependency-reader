@@ -8,7 +8,7 @@ if filepath == 'reader.py':
     filepath = 'plugin.json'
 
 with open(filepath) as file:
-    data = json.load(filepath)
+    data = json.load(file)
 
 file = open('requirements.txt', 'w+')
 file.write('\n'.join(data.get('requirements', [])))
