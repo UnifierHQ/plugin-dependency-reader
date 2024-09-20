@@ -1,4 +1,5 @@
 import json
+import sys
 
 filepath = sys.argv[len(sys.argv)-1] # use last argument as file
 
